@@ -2,7 +2,7 @@ import pymysql
 
 host = 'localhost'
 id = 'root'
-pw = 'tmdals123'
+pw = ''
 db_name = 'company'
 
 conn = pymysql.connect(host=host, user=id, password=pw, db=db_name, charset='utf8')
